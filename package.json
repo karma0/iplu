@@ -2,7 +2,7 @@
   "name": "iplu",
   "version": "1.0.0",
   "description": "Dynamic IP Authentication and Remote Lookup Service",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/karma0/iplu/issues"
   },
-  "homepage": "https://github.com/karma0/iplu#readme"
+  "homepage": "https://github.com/karma0/iplu#readme",
+  "dependencies": {
+    "hawk": "^4.1.2",
+    "request": "^2.69.0"
+  }
 }
