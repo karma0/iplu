@@ -1,0 +1,27 @@
+{
+  "name": "iplu",
+  "version": "1.0.0",
+  "description": "Dynamic IP Authentication and Remote Lookup Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karma0/iplu.git"
+  },
+  "keywords": [
+    "DDNS",
+    "DynDNS",
+    "Dynamic",
+    "DNS",
+    "Reverse",
+    "Lookup"
+  ],
+  "author": "Bobby Larson <bobby@larson.agency>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/karma0/iplu/issues"
+  },
+  "homepage": "https://github.com/karma0/iplu#readme"
+}
