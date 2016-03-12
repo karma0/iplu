@@ -9,7 +9,7 @@ var Creds = require('./creds.json');
 var ips_file = "./ips.json";
 var IPs = require(ips_file);
 
-var getCreds = function (id, cb) { return cb(null, Creds[id]); };
+var getCreds = function (id, cb) { console.log(Creds[id]); return cb(null, Creds[id]); };
 
 var updateIP = function (user, ip, cb) {
   IPs[user] = ip;
@@ -21,7 +21,7 @@ var handler = function (req, res) {
     var headers = { 'Content-Type': 'text/plain' };
 
     var respCode = 200;
-    var payload = '';
+    var payload = 'IP or Method Not Found';
     if (err) {
       respCode = 401;
       payload = 'Not Authorized';

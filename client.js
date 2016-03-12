@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Request = require('request');
 var Hawk = require('hawk');
 
