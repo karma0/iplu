@@ -9,11 +9,11 @@ var uri = Conf.proto+'://'+Conf.host+':'+Conf.port;
 
 var requestOptions = {
   uri: uri,
-  method: 'GET',
+  method: 'PUT',
   headers: {}
 };
 
-var header = Hawk.client.header(uri, 'GET',
+var header = Hawk.client.header(uri, 'PUT',
                                 {
                                   credentials: Conf.credentials,
                                   ext: 'some-app-data'
